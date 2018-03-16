@@ -1,0 +1,9 @@
+###################  spring≈‰÷√  ###################
+spring:
+  mvc:
+    static-path-pattern: /static/**
+    view:
+      prefix: /view/
+      suffix: .ftl
+  freemarker:
+    template-loader-path: classpath:/view/, classpath:/templates/*
