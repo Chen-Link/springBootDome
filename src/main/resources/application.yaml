@@ -7,3 +7,6 @@ spring:
       suffix: .ftl
   freemarker:
     template-loader-path: classpath:/view/, classpath:/templates/*
+    
+    
+    
